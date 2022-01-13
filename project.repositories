@@ -3,9 +3,65 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>Belfius-AzureCloud</id>
+        <url>https://pkgs.dev.azure.com/Belfius-AzureCloud/_packaging/Belfius-BizDevOps/maven/v1</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>belfius-nexus-snapshots</id>
+        <url>http://nexus.belwired.net/nexus/content/repositories/belfius-snapshots</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jBoss</id>
+        <url>https://repository.jboss.org/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>belfius-red-hat-releases</id>
+        <url>http://nexus.belwired.net/nexus/content/repositories/redhat.JBoss.BPM.Suite/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>R:\.m2</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>Red Hat</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>belfius-nexus-releases</id>
+        <url>http://nexus.belwired.net/nexus/content/repositories/belfius-releases</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
